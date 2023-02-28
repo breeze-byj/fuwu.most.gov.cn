@@ -91,7 +91,7 @@ class Run(PySelenium):
 
 
 if __name__ == '__main__':
-    url = 'https://fuwu.most.gov.cn/html/tztg/xzxkzx/'
+    url = 'https://ZnV3dS5tb3N0Lmdvdi5jbg==/html/tztg/xzxkzx/'
     browser = webdriver.Chrome()
     browser.implicitly_wait(10)
     Run(browser).visit(url)
